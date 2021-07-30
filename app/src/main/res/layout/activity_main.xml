@@ -14,7 +14,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="250dp"
-        android:hint="Enter title for Service"
+        android:hint="@string/enter_title_for_service"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
         <com.google.android.material.textfield.TextInputEditText
@@ -29,7 +29,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Start Service"
+        android:text="@string/start_service"
         android:onClick="startService"
         app:layout_constraintEnd_toEndOf="@+id/input_field"
         app:layout_constraintStart_toStartOf="@+id/input_field"
@@ -40,7 +40,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Stop Service"
+        android:text="@string/stop_service"
         android:onClick="stopService"
         app:layout_constraintEnd_toEndOf="@+id/button_start"
         app:layout_constraintStart_toStartOf="@+id/button_start"
